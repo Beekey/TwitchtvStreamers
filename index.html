@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Twitchtv Streamers</title>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!-- Use the Twitchtv JSON API challenge for freeCodeCamp
+This page takes channels from an array and sorts and lists online, offline and channels that were deleted or never existed.
+Search prints data for a given search term.
+Page can be refreshed with and animated refresh button. The refreshed results include results for all searches. -->
+<div class="container-fluid text-center center-block">
+
+  <div id="header">
+    <!-- Twitch logo and refresh button -->
+    <div id="headerFirst"><a href="https://www.twitch.tv/" target="_blank" title="Twitch streamers"><button><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Twitch_BlackLogo.svg/150px-Twitch_BlackLogo.svg.png" class="img-responsive"><span>streamers</span></button></a>
+      <button id="refresh"><i id="refreshButton" class="fa fa-refresh fa-3x"></i></button>
+    </div>
+ <!-- search/online/offline/all section buttons -->
+    <div id="headerSecond"><button id="headerSearch">Search<br></button><button id="headerOnline">Online</button><button id="headerOffline">Offline</button><button id="headerAll">All</button></div>
+  </div>
+ <!-- search bar and search button -->
+  <div id="searchBar" class="row">
+    <form><input id="inputString" autocomplete="off" type="text"><button type="submit"><i class="fa fa-search"></i></button></form>
+  </div>
+   <!-- stream sections -->
+  <div id="search" class="container"></div>
+  <div id="online" class="row"></div>
+  <div id="offline" class="row"></div>
+  <div id="closed" class="row"></div>
+  
+  <footer>Designed and coded by <a href="https://beekey.github.io/" target="_blank">BeeKey</a>.</footer>
+</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

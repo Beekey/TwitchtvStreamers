@@ -1,0 +1,341 @@
+body {
+  min-width: 320px;
+  background: white;
+}
+
+#headerFirst {
+  margin: 10px 1px;
+}
+
+#headerFirst button {
+  font-size: 21px;
+  height: 90px;
+  background: transparent;
+  padding: 10px;
+  margin: 0 10px;
+  vertical-align: middle;
+  outline: 0;
+  border: 0;
+}
+
+#headerFirst a {
+  color: #777;
+}
+
+#refresh {
+  color: #777;
+}
+
+#refresh:active,
+#refresh:hover {
+  color: #333;
+  text-shadow: 2px 2px 1px #ccc;
+}
+
+#headerSecond button {
+  margin: 0 3px;
+  font-size: 15px;
+  padding: 5px 12px;
+  outline: 0;
+  border-radius: 7px;
+}
+
+#searchBar {
+  margin: 15px 0;
+}
+
+input {
+  margin: 2px;
+  border-radius: 5px;
+}
+
+#searchBar button {
+  background: transparent;
+  border: 0;
+  color: #777;
+  font-size: 23px;
+}
+
+#searchBar button:focus,
+#searchBar button:hover {
+  color: #333;
+  outline: 0;
+}
+
+input {
+  width: 210px;
+  padding: 2px 3px;
+  outline: 0;
+}
+
+.streamLogo {
+  width: 70px;
+  height: 70px;
+  margin: 7px auto;
+}
+
+.onlineContainer {
+  display: inline-block;
+  width: 280px;
+  height: 400px;
+  border: 5px solid #BDEBBC;
+  margin: 4px;
+  border-radius: 9px;
+  padding: 4px 3px 3px 3px;
+  vertical-align: middle;
+  overflow: auto;
+  background: #ECF9EC;
+  transition: all 0.3s ease-in;
+  color: dark-green;
+  position: relative;
+}
+
+.onlineContainer:hover {
+  border: 5px solid #35A435;
+  box-shadow: 3px 3px 1px 0 #aaa;
+  background: #9ADE9A;
+}
+
+.onlineContainer .fa-twitch {
+  color: indianred;
+  padding-top: 4px;
+}
+
+.onlineContainer hr {
+  border: 1px solid #BDEBBC;
+  width: 80%;
+  border-radius: 2px;
+  margin: 2px auto;
+}
+
+.onlineName {
+  font-size: 23px;
+  margin: 7px auto 2px auto;
+  word-wrap: break-word;
+  color: #2B802B;
+}
+
+.onlineStatus {
+  font-size: 16px;
+  color: green;
+}
+
+.onlineInfo {
+  font-size: 16px;
+  color: #339B33;
+  margin: 5px 4px 3px 4px;
+}
+
+.onlinePreview {
+  position: absolute;
+  bottom: 2px;
+  width: 264px;
+  padding: 4px;
+}
+
+.offlineContainer {
+  display: inline-block;
+  width: 230px;
+  height: 165px;
+  border: 5px solid #EFCBCB;
+  margin: 4px;
+  border-radius: 7px;
+  padding: 4px 3px 3px 3px;
+  vertical-align: middle;
+  overflow: auto;
+  background: #FFF6F6;
+  transition: all 0.3s ease-in;
+}
+
+.offlineContainer:hover {
+  border: 5px solid indianred;
+  box-shadow: 3px 3px 1px 0 #aaa;
+  background: #FFe1e1;
+}
+
+.fa-twitch {
+  color: indianred;
+  padding-top: 3px;
+}
+
+.offlineContainer hr {
+  border: 1px solid #EFCBCB;
+  width: 80%;
+  border-radius: 2px;
+  margin: 2px auto;
+}
+
+.offlineName {
+  font-size: 19px;
+  margin: 7px auto 2px auto;
+  word-wrap: break-word;
+  color: indianred;
+}
+
+.offlineStatus {
+  font-size: 15px;
+  color: #dd9191;
+}
+
+.closedContainer {
+  display: inline-block;
+  width: 200px;
+  height: 120px;
+  border: 5px solid #ccc;
+  margin: 3px;
+  border-radius: 7px;
+  padding: 4px;
+  vertical-align: middle;
+  overflow: auto;
+  background: #eee;
+}
+
+.fa-times {
+  color: #777;
+}
+
+hr {
+  border: 1px solid #999;
+  width: 80%;
+  border-radius: 2px;
+  margin: 2px auto;
+}
+
+.closedName {
+  font-size: 15px;
+  margin: 7px auto 2px auto;
+  word-wrap: break-word;
+}
+
+.onlineSearchContainer {
+  display: inline-block;
+  width: 280px;
+  height: 400px;
+  border: 5px solid #E9C565;
+  margin: 4px;
+  border-radius: 9px;
+  padding: 4px 3px 3px 3px;
+  vertical-align: middle;
+  overflow: auto;
+  background: #FFF9CA;
+  transition: all 0.3s ease-in;
+  color: #AA8217;
+  position: relative;
+}
+
+.onlineSearchContainer:hover {
+  border: 5px solid #D5A31E;
+  box-shadow: 3px 3px 1px 0 #aaa;
+  background: #FFEE79;
+}
+
+.onlineSearchContainer .fa-twitch {
+  color: #BA8E1B;
+  padding-top: 4px;
+}
+
+.onlineSearchContainer hr {
+  border: 1px solid #E9C565;
+  width: 80%;
+  border-radius: 2px;
+  margin: 2px auto;
+}
+
+.onlineSearchName {
+  font-size: 23px;
+  margin: 7px auto 2px auto;
+  word-wrap: break-word;
+  color: #A45200;
+}
+
+.onlineSearchStatus {
+  font-size: 16px;
+  color: #BA8E1B;
+}
+
+.onlineSearchInfo {
+  font-size: 16px;
+  color: #BA8E1B;
+  margin: 5px 4px 3px 4px;
+}
+
+.offlineSearchContainer {
+  display: inline-block;
+  width: 230px;
+  height: 160px;
+  border: 5px solid #E9C565;
+  margin: 4px;
+  border-radius: 7px;
+  padding: 4px 3px 3px 3px;
+  vertical-align: middle;
+  overflow: auto;
+  background: #FFF9CA;
+  transition: all 0.3s ease-in;
+}
+
+.offlineSearchContainer:hover {
+  border: 5px solid #D5A31E;
+  box-shadow: 3px 3px 1px 0 #aaa;
+  background: #FFEE79;
+}
+
+.offlineSearchContainer .fa-twitch {
+  color: #BA8E1B;
+  padding-top: 3px;
+}
+
+.offlineSearchContainer hr {
+  border: 1px solid #E9C565;
+  width: 80%;
+  border-radius: 2px;
+  margin: 2px auto;
+}
+
+.offlineSearchName {
+  font-size: 19px;
+  margin: 7px auto 2px auto;
+  word-wrap: break-word;
+  color: #A45200;
+}
+
+.offlineSearchStatus {
+  font-size: 15px;
+  color: #BA8E1B;
+}
+
+.closedSearchContainer {
+  display: inline-block;
+  width: 200px;
+  height: 120px;
+  border: 5px solid #E9C565;
+  margin: 3px;
+  border-radius: 7px;
+  padding: 4px;
+  vertical-align: middle;
+  overflow: auto;
+  background: #FFF9CA;
+  color: #BA8E1B;
+}
+
+.closedSearchContainer .fa-times {
+  color: #E9C565;
+}
+
+.closedSearchContainer hr {
+  border: 1px solid #E9C565;
+  width: 80%;
+  border-radius: 2px;
+  margin: 2px auto;
+}
+
+.closedSearchName {
+  font-size: 15px;
+  margin: 7px auto 2px auto;
+  word-wrap: break-word;
+  color: #A45200;
+}
+
+footer {
+  margin-top: 15px;
+  margin-bottom: 1px;
+}
